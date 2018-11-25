@@ -1,0 +1,110 @@
+/*Final Project CSS */
+body {
+	background-color:#201356;
+	margin: 100px;
+	color: #000033;
+	font-family: Bookman, "URW Bookman L", serif;
+	border: 2px solid red;
+    border-radius: 12px;
+}
+
+#box{
+	background-color: #ffffff;
+}
+
+/*NAVIGATION*/
+nav{
+	text-align: center;
+	font-size: 30px;
+	background-color: #5dd8d8;
+	text-decoration: none;
+	padding: 14px;
+
+	border-radius: 10px;
+	/* have nav stay in place even when scroll*/
+	position:fixed;
+	top: 0;
+	bottom; 0;
+	right: 0;
+	left: 0;*
+}
+nav a:link{
+	color: #8342f4;
+	text-decoration: none;
+}
+nav a:visited{
+	color: #0b384c;
+	}
+nav a:hover{
+	color: #d12179;
+}
+
+/*GALLERY*/
+#artwork {
+    text-align: justify;
+		padding: 5px;
+}
+
+#artwork img {
+    display: inline-block;
+
+    height: 25%px;
+}
+
+#artwork:after {
+    content: '';
+    display: inline-block;
+    width: 25%;
+}
+
+#artworkrow2 {
+    text-align: justify;
+		padding: 5px;
+}
+
+#artworkrow2 img {
+    display: inline-block;
+    height: 25%px;
+}
+
+#artworkrow2:after {
+    content: '';
+    display: inline-block;
+    width: 25%;
+}
+#gallery{
+
+}
+
+
+/*BIOGRAPHY*/
+ .leftimg{
+	float: left;
+	padding-right: 25px;
+}
+
+#bio{
+	font-size: 20px;
+	background-color: #c268ff;
+	margin: 20px;
+}
+/*FOOTER*/
+footer{
+	text-align: center;
+	background-color: #5dd8d8;
+
+}
+footer a:link{
+	color: #ffffff;
+}
+#tos{
+	clear: top;
+	padding-bottom: 8px;
+}
+/*CONTAINER STUFF*/
+#container{
+	font-size: 20px;
+	background-color: #c268ff;
+	margin: 20px;
+}
+#container a:link{ color: #5dd8d8;}

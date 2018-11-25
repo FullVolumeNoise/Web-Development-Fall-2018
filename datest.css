@@ -1,0 +1,93 @@
+/* TEST CSS BASED ON DA */
+nav {
+    background-color: #5999ff;
+    text-decoration: none;
+    height: 50px;
+  /*  left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    */
+    color: #ffffff;
+    text-align: center;
+  	font-size: 30px;
+    padding: 7px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav a:link {
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  padding: 10px;
+  color: #ffffff;
+}
+nav a:hover{
+  color: #8350ba;
+}
+
+body {
+  background-color: #ffbfdb;
+}
+
+#content {
+    background-color: #ffffff;
+    font-size: 9pt;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+footer {
+    clear: both;
+    padding: 0;
+    background: #5999ff;
+    color: #d8e4d8;
+    font-size: 8.25pt;
+    border-top: 1px solid #e1e9e0;
+    margin: 0;
+    text-align: center;
+}
+
+#gallery {
+  border: 1px solid #ccc;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+/*  .gallery {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #EAEFE8;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.2);
+    line-height: 0;
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 16px;
+}
+*/
